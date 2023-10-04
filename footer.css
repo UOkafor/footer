@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 25fr 24fr 17fr 17fr 17fr;
+    font-family: calibri;
+    font-size: 16px;
+    border: 2px solid whitesmoke;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding-left: 190px;
+    padding-right: 170px;
+    margin: 30px;
+    gap: 20px;
+    color: dimgrey;
+    margin-top: 150px;
+    background-color: white;
+}
+.logo img {
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.instagram{
+    margin-right: 12px;
+    color: dimgrey;
+}
+.facebook{
+    margin-right: 12px;
+    color: dimgrey;
+}
+.twitter{
+    margin-right: 12px;
+    color: dimgrey;
+}
+.copyright {
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+.contact {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: -6px;
+    margin-bottom: 23px;
+} 
+.address{
+    font-size: 15px;
+}
+.add{
+    font-size: 15px;
+    margin-bottom: 17px;
+}
+.mobile{
+    font-size: 15px;
+}
+.hello{
+    font-size: 13px;
+}
+.account {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: -6px;
+    margin-bottom: 23px;
+}
+.acc{
+    margin-bottom: 14px;
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
